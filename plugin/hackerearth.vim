@@ -352,6 +352,6 @@ command! -nargs=? -complete=file Hcompile :call <SID>HackerEarth("compile", <f-a
 command! -nargs=0 Hhelp :call <SID>Hhelp()
 
 " shortcuts
-map <C-h>r :Hrun<CR>
-map <C-h>c :Hcompile<CR>
-map <C-h>h :Hhelp<CR>
+" map <C-h>r :Hrun<CR>
+" map <C-h>c :Hcompile<CR>
+" map <C-h>h :Hhelp<CR>
