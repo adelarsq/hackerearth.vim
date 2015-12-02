@@ -44,7 +44,7 @@ function! s:OutputBuffer()
     setlocal buftype=nofile
     setlocal bufhidden=hide
     setlocal noswapfile
-    setlocal filetype=txt
+    setlocal filetype=hackerearth
 endfunction
 
 python << EOF
