@@ -15,8 +15,6 @@ endif
 " Default output buffer
 let s:output_buffer = "HackerEarth"
 
-setlocal wildmode=longest
-
 "
 " Helper functions
 "
@@ -45,6 +43,7 @@ function! s:OutputBuffer()
     setlocal bufhidden=hide
     setlocal noswapfile
     setlocal filetype=hackerearth
+    setlocal wildmode=longest
 endfunction
 
 python << EOF
